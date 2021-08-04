@@ -40,8 +40,8 @@ return false;
 Username: <input type="text" name="username" class="form-control" required  minlength="3"><br>
 Email: <input type="email" name="email" class="form-control" required  pattern=".+@gmail.com" 
         placeholder="@gmail.com" maxlength="64"   title="the email must be in given format"><br>
-Password: <input type="password" name="password"  class="form-control" id= "password" required minlength="6"
-        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])"
+Password: <input type="password" name="password"  class="form-control" id= "password" required 
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
   title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
 Confirm Password: <input type="password" name="confirmpass" class="form-control" id="confirmpass" required><br><br>
 
